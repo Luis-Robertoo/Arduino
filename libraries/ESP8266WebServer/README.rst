@@ -72,7 +72,7 @@ Sending responses to the client
 
 .. code:: cpp
 
-  void send();
+  void send(200, "text/plain", "conteudo");
   void send_P();
 
 *Parameters:*
